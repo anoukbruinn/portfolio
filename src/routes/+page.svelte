@@ -19,19 +19,34 @@
 	<img class="photo-1" src="/src/assets/profile-picture.JPG" alt="profilepicture" />
 </div>
 
+<section class="my-story">
+
+
 <div class="about">
-	<div class="information">
-		<h2 class="about-me">About me</h2>
-	</div>
+	
 
 	<div class="information-story">
-		<p class="story">
-			I'm Anouk, a frontend developer student at <br /> HvA College. Right now I'm in my last year.
-			I'm 22 years old <br /> and i live in Castricum. I work in a restaurant at a retirement home
-		</p>
+		<h2 class="about-me">22</h2>
+		
 	</div>
+	<p class="story">
+		I'm Anouk, a frontend developer student at HvA College. Right now I'm in my last year.
+		I'm 22 years old and i live in Castricum. I work in a restaurant at a retirement home
+	</p>
+</div>
+</section>
+
+<section class="slider">
+
+<div class="slide"> 
+	
+	<div class="img1"><img class="minnie1" src="src/assets/minnie.jpeg" alt="minnie"></div>
+	<div class="img2"><img class="ski" src="src/assets/ski.png" alt="ski"></div>
+	<div class="img3"><img class="minnie1" src="src/assets/minnie.jpeg" alt="minnie"></div>
+
 </div>
 
+</section>
 <body />
 
 <!--  <-----------------------------------------------STYLING-------------------------------------------------------------- >  -->
@@ -94,6 +109,36 @@
 	p {
 		font-family: Avenir;
 		font-size: 25px;
+		
+	}
+
+	p.story {
+		margin-left: 35em;
+		width: 20em;
+		margin-top: -55em;
+	}
+
+	section.my-story {
+		width: 100%;
+		height: 100%;
+		padding: 1em 1em 0;
+		border-radius: 1em;
+	}
+	.information-story {
+		margin-bottom: 2em;
+		background-image: url(/src/assets/background.jpg);
+		border-radius: 20px;
+		width: 100%;
+		height: 100%;
+	
+	}
+
+	
+	.story {
+		text-align: left;
+		margin-right: 0.2em;
+
+		
 	}
 	H1.anouk {
 		font-size: 370px;
@@ -122,19 +167,48 @@
 	}
 
 	.about-me {
-		color: black;
-		text-align: center;
-		margin-bottom: 1em;
-		font-size: 50px;
+		color: rgb(182, 182, 182);
+		text-align: left;
+		margin-bottom: 2em;
+		font-size: 30em;
 		font-family: avenir;
 		padding-top: 3rem;
+		margin-left: 0.1em;
 	}
 
 	.about {
-		text-align: center;
-		padding-left: 50px;
-		background-color: rgb(245, 239, 239);
+		text-align: right;
 		border-radius: 20px;
+		width: 100%;
+		height: 100%;
+		padding: 1em 1em 0;
+		border-radius: 1em;
+	}
+
+	/* PICTURES */
+
+	section.cats {
+		border-radius: 20px;
+		width: 100%;
+		height: 100%;
+		padding: 1em 1em 0;
+		border-radius: 1em;
+	}
+
+	img.minnie1 {
+		margin-top: 17em;
+		width: 100%;
+		height: 100%;
+		padding: 1em 1em 0;
+		border-radius: 2em;
+	}
+
+	img.ski {
+		/* margin-top: 17em; */
+		width: 100%;
+		height: 100%;
+		padding: 1em 1em 0;
+		border-radius: 2em;
 	}
 
 	/* ---NAVBAR--- */
