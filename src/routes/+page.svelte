@@ -47,6 +47,34 @@
 </div>
 
 </section>
+
+<section class="information"> 
+
+<div class="diploma">
+
+	<h1 class="education"> Education </h1>
+<h2 class="nova-college"> Media Design</h2>
+
+<p class="nova-college-info"> 	I started studying Media Design in 2019, I got my diploma in 
+								2022. I followed this study in Haarlem at The Nova College.</p>
+
+<h3 class="internship"> Internships	</h3>
+
+<p class="atom-retail"> 		Atom-retail: sep. 2020 - dec. 2020
+</p>
+
+<p class="brick-zero">			brick-zero: nov. 2021 - apr. 2022	
+</p>
+</div>
+</section>
+
+<section class="work">
+
+	<h1 class="work-title"> Work </h1>
+
+
+</section>
+
 <body />
 
 <!--  <-----------------------------------------------STYLING-------------------------------------------------------------- >  -->
@@ -156,6 +184,21 @@
 		margin-right: 50px;
 	}
 
+	h1.education {
+		color: black;
+	}
+
+	.information {
+		width: 40%;
+		background-color: rgb(244, 243, 241);
+		justify-content: center;
+		border-radius: 20px;
+		margin-left: 50px;
+	}
+
+	div.diploma {
+		justify-content: center;
+	}
 	img.photo-1 {
 		width: 400px;
 		margin-left: 100px;
