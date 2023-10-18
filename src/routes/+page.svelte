@@ -68,9 +68,25 @@
 </div>
 </section>
 
-<section class="work">
+<section class="work"> 
 
-	<h1 class="work-title"> Work </h1>
+	<div class="banen">
+	
+		<h1 class="work"> Work </h1>
+	
+	
+	<h3 class="viva-zorggroep"> Viva zorggroep </h3>	
+	
+	<p class="job"> Restaurant/ medewerker zorg en welzijn plus: </p>
+
+	
+	<h3 class="hema"> 	Hema  </h3>
+	
+	<p class="job">	kassamedewerker	</p>
+	</div>
+	
+
+	
 
 
 </section>
@@ -317,5 +333,17 @@
 		animation-fill-mode: none;
 
 		transform: translateX((-150px));
+	}
+
+	section.work {
+		width: 40%;
+		background-color: rgb(244, 243, 241);
+		justify-content: center;
+		border-radius: 20px;
+		margin-left: 50px;
+	}
+
+	h1.work {
+		color: black;
 	}
 </style>
