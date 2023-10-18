@@ -42,11 +42,11 @@
 	
 	<div class="img1"><img class="minnie1" src="src/assets/minnie.jpeg" alt="minnie"></div>
 	<div class="img2"><img class="ski" src="src/assets/ski.png" alt="ski"></div>
-	<div class="img3"><img class="minnie1" src="src/assets/minnie.jpeg" alt="minnie"></div>
-
+	
 </div>
 
 </section>
+
 
 <section class="information"> 
 
@@ -84,12 +84,10 @@
 	
 	<p class="job">	kassamedewerker	</p>
 	</div>
-	
-
-	
-
 
 </section>
+
+
 
 <body />
 
@@ -200,6 +198,11 @@
 		margin-right: 50px;
 	}
 
+
+	.info1 {
+		margin-left: auto;
+		margin-right: auto;
+	}
 	h1.education {
 		color: black;
 	}
@@ -246,13 +249,6 @@
 
 	/* PICTURES */
 
-	section.cats {
-		border-radius: 20px;
-		width: 100%;
-		height: 100%;
-		padding: 1em 1em 0;
-		border-radius: 1em;
-	}
 
 	img.minnie1 {
 		margin-top: 17em;
@@ -340,7 +336,7 @@
 		background-color: rgb(244, 243, 241);
 		justify-content: center;
 		border-radius: 20px;
-		margin-left: 50px;
+		margin-right: 50px;
 	}
 
 	h1.work {
