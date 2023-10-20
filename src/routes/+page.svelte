@@ -58,7 +58,7 @@
 <p class="nova-college-info"> 	I started studying Media Design in 2019, I got my diploma in 
 								2022. I followed this study in Haarlem at The Nova College.</p>
 
-<h3 class="internship"> Internships	</h3>
+<h2 class="internship"> Internships	</h2>
 
 <p class="atom-retail"> 		Atom-retail: sep. 2020 - dec. 2020
 </p>
@@ -75,14 +75,16 @@
 		<h1 class="work"> Work </h1>
 	
 	
-	<h3 class="viva-zorggroep"> Viva zorggroep </h3>	
+	<h2 class="viva-zorggroep"> Viva zorggroep </h2>	
 	
 	<p class="job"> Restaurant/ medewerker zorg en welzijn plus: </p>
 
 	
-	<h3 class="hema"> 	Hema  </h3>
+	<h2 class="hema"> 	Hema  </h2>
 	
-	<p class="job">	kassamedewerker	</p>
+	<p class="kassa">	kassamedewerker	</p>
+
+	<hr class="bottom"> 
 	</div>
 
 </section>
@@ -199,10 +201,7 @@
 	}
 
 
-	.info1 {
-		margin-left: auto;
-		margin-right: auto;
-	}
+	
 	h1.education {
 		color: black;
 	}
@@ -336,10 +335,30 @@
 		background-color: rgb(244, 243, 241);
 		justify-content: center;
 		border-radius: 20px;
-		margin-right: 50px;
+		margin-left: 950px;
+		margin-top: -17.3em;
 	}
 
 	h1.work {
 		color: black;
+
+	}
+
+	p.kassa{
+		margin-bottom: 4em;
+		
+	}
+
+
+	hr.bottom {
+		color: white ;
+	}
+	
+	.banen{
+		margin-left: 10px;
+	}
+
+	.diploma {
+		margin-left: 10px;
 	}
 </style>
